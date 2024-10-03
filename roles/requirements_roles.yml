@@ -1,0 +1,4 @@
+---
+- src: git+https://github.com/szymon-m/test-ansible-role
+  version: origin/main
+  name: test_role

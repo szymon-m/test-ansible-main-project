@@ -1,0 +1,13 @@
+---
+- hosts: all
+  gather_facts: false  
+
+  tasks:
+    - name: Import a role test_role
+      ansible.builtin.import_role:
+        name: test_role
+
+    - name: Import a role test_role
+      ansible.builtin.include_role:
+        name: test_role
+    
