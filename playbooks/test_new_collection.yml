@@ -3,9 +3,10 @@
   gather_facts: false  
 
   tasks:
-    - name: Import a role
-      ansible.builtin.import_role:
-        name: t_namespace.t_collection.some-simple-role
+    # TO-BE CHECKED -> not work with imports -> but works with collections: keyword
+    # - name: Import a role4
+    #   ansible.builtin.import_role:
+    #     name: t_namespace.t_collection.some-simple-role
 
     - name: Include role
       ansible.builtin.include_role:
