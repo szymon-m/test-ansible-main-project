@@ -1,0 +1,13 @@
+---
+- hosts: all
+  gather_facts: false
+
+  collections:
+    - t_namespace.t_collection
+
+  tasks:
+    - name: Import a role
+      ansible.builtin.import_role:
+        name: some_simple_role
+
+    
