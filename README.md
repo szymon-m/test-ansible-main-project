@@ -2,6 +2,12 @@
 
 This is test Ansible main project using Ansible collections
 
+This project make use of other repositories:
+
+[test-ansible-role](https://github.com/szymon-m/test-ansible-role)
+
+[test-ansible-collection](https://github.com/szymon-m/test-ansible-collection)
+
 ## Possible structure of project
 
 - /home/ansible
