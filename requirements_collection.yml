@@ -2,4 +2,4 @@
 collections:
 - name: t_namespace.t_collection
   src: git+https://github.com/szymon-m/test-ansible-collection.git
-  version: origin/main
+  version: main
