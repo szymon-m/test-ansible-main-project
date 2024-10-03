@@ -1,0 +1,17 @@
+---
+- hosts: all
+  gather_facts: false  
+
+  collections:
+  - t_namespace.t_collection
+
+  tasks:
+    - name: Import a role without FQDN
+      ansible.builtin.import_role:
+        name: some-simple-role
+
+    - name: Include role without FQDN
+      ansible.builtin.include_role:
+        name: some_simple_role_without_hyphens_in_name
+
+    

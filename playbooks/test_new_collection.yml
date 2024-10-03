@@ -5,6 +5,10 @@
   tasks:
     - name: Import a role
       ansible.builtin.import_role:
-        name: t_namespace.t_collection.some_simple_role
+        name: t_namespace.t_collection.some-simple-role
+
+    - name: Include role
+      ansible.builtin.include_role:
+        name: t_namespace.t_collection.some_simple_role_without_hyphens_in_name
 
     
