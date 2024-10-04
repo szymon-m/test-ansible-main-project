@@ -1,0 +1,5 @@
+---
+collections:
+- name: https://github.com/szymon-m/test-ansible-collection.git
+  type: git
+  version: develop
